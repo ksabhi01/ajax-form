@@ -1,0 +1,38 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#input-form{
+	width: 35vw;
+    height: -52vh;
+    margin: 6% auto;
+    border: 1px solid;
+    padding: 55px;
+}
+
+#submit-button{
+	width: 20vw;
+}
+
+#result{
+	height: 68vh;
+    width: 66vh;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 4% auto;
+	display:none;
+}
+
+@media (min-width: 376px ) and (max-width: 426px) {
+	#input-form{
+		width: 80vw;
+	}
+}
+
+@media (min-width: 426px ) and (max-width: 768px) {
+	#input-form{
+		width: 67vw;
+	}
+}
+
